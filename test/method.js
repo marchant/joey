@@ -31,7 +31,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 var HTTP = require("q-io/http");
 var JOEY = require("../joey");
-var Q = require("q");
+var Q = require("bluebird-q");
 
 exports['test methods'] = function (assert, done) {
 

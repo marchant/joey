@@ -29,7 +29,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 POSSIBILITY OF SUCH DAMAGE.
 </copyright> */
 
-var Q = require("q");
+var Q = require("bluebird-q");
 var FS = require("q-io/fs");
 var HTTP = require("q-io/http");
 var Apps = require("q-io/http-apps");
